@@ -229,7 +229,6 @@ header{
 #first-main-section .box-img{
     background-image: url(img/item1.svg);
     background-size: 500px;
-    
     background-repeat: no-repeat;
 }  
 
@@ -243,6 +242,27 @@ header{
     padding-bottom: 20px;
 }
 #first-main-section p{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+/*main-second-section*/
+#second-main-section .box-img{
+    background-image: url(img/item2.svg);
+    background-size: 460px;
+    background-repeat: no-repeat;
+}  
+
+
+#second-main-section .box-text{
+    padding-top: 25px;
+    padding-right: 40px;
+}
+#second-main-section h2{
+    text-align: left;
+    padding-bottom: 20px;
+}
+#second-main-section p{
     text-align: left;
     padding-bottom: 20px;
 }
