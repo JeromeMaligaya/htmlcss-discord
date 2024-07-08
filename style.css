@@ -4,7 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*Generics*/
+body{
+    font-family: sans-serif;
+}
 /*utilities-borderline*/
 .border{
     border: 1px dashed #000;
@@ -73,9 +76,17 @@
     width: 1000px;
 }
 
+/*utilities-button*/
+.btn-box{
+    border-radius: 25px;
+    padding: 2px 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-color: transparent;
+}
 
 /*utilities-backgrounds-color*/
-
+/*
 .bg-azure{
     background-color: aquamarine;
 }
@@ -122,25 +133,41 @@
 .bg-seagreen{
     background-color: darkseagreen;
 }
+    */
 
 /*header nav-header*/
 
-.cont-nav-header{
-    min-height: 50px;
+header{
+    background-image: url(img/jumbo.png);
+    background-size: 100% 100%;
 }
 
-.nav-header{
-    background-color: goldenrod;
+.cont-nav-header{
+    min-height: 50px;
+    
 }
 
 .box-logo{
     width: 25%;
     justify-content: flex-start;
     align-items: center;
+    line-height: 100%;
+}
+
+.header-logo img{
+    width: 70px;
+    vertical-align: middle;
 }
 
 .box-link{
     width: 50%;
+}
+
+.header-link-row a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0 15px;
 }
 
 
@@ -148,6 +175,11 @@
     width: 25%;
     justify-content: flex-end;
     align-items: center;
+}
+
+.button-login button{
+    background-color: white;
+    width: 70px;
 }
 
 /*main*/
