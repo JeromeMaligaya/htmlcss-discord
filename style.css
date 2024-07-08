@@ -139,7 +139,8 @@ body{
 
 header{
     background-image: url(img/jumbo.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .cont-nav-header{
@@ -232,7 +233,6 @@ header{
     background-repeat: no-repeat;
 }  
 
-
 #first-main-section .box-text{
     padding-top: 30px;
     padding-left: 40px;
@@ -253,7 +253,6 @@ header{
     background-repeat: no-repeat;
 }  
 
-
 #second-main-section .box-text{
     padding-top: 25px;
     padding-right: 40px;
@@ -266,6 +265,27 @@ header{
     text-align: left;
     padding-bottom: 20px;
 }
+
+/*third-first-section*/
+#third-main-section .box-img{
+    background-image: url(img/item3.svg);
+    background-size: 460px;
+    background-repeat: no-repeat;
+}  
+
+#third-main-section .box-text{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+#third-main-section h2{
+    text-align: left;
+    padding-bottom: 20px;
+}
+#third-main-section p{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
 
 
 /*footer-content*/
