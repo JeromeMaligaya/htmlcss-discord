@@ -164,7 +164,7 @@ header{
 }
 
 .header-link-row a{
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-size: 12px;
     padding: 0 15px;
@@ -180,6 +180,39 @@ header{
 .button-login button{
     background-color: white;
     width: 70px;
+}
+
+/*header-content*/
+#header-content{
+    color: #fff;
+}
+
+#header-content h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#header-content p{
+    text-align: center;
+}
+
+.header-btn-row{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.header-btn-row button{
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.header-btn-row a{
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
 }
 
 /*main*/
